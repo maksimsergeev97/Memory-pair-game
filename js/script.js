@@ -34,7 +34,7 @@ logo.classList.add('logo');
 logo.src = "icons/Naruto-logo.png";
 main.insertBefore(logo, main.firstElementChild);
 
-audio.autoplay = true;
+audio.controls = true;
 audio.loop = true;
 audio.innerHTML = `<source src="narutos-theme-song.mp3" type="audio/mpeg">`;
 main.append(audio);
