@@ -34,7 +34,6 @@ logo.classList.add('logo');
 logo.src = "icons/Naruto-logo.png";
 main.insertBefore(logo, main.firstElementChild);
 
-audio.controls = true;
 audio.loop = true;
 audio.innerHTML = `<source src="narutos-theme-song.mp3" type="audio/mpeg">`;
 main.append(audio);
@@ -52,6 +51,7 @@ container.insertBefore(promo, container.firstChild);
 buttonStart.addEventListener('click', () => {
     promo.classList.add('hide');
     drowCards();
+    audio.play();
 })
 
 winImg.classList.add('win__img');
@@ -200,11 +200,6 @@ imgRestart.addEventListener('click', () => {
     drowCards();
     
 })
-
-
-
-
-
 
 
 
