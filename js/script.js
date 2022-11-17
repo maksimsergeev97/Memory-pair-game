@@ -40,7 +40,7 @@ main.append(audio);
 
 promo.classList.add('text');
 promo.innerHTML = `<h1>Hello! You are in my game<br>"Naruto memory-pair game"</h1>
-<p>This is a typical memory-pair game where you have to find pairs of cards. In order to win, you have to find all pairs of character cards.<br><br>Press start and good luck :)</p>`;
+<p>This is a typical memory-pair game where you have to find pairs of cards. In order to win, you have to find all pairs of character cards.<br>Upbeat music is playing in the background, so turn your device down :)<br><br>Press start and good luck :)</p>`;
 
 buttonStart.classList.add('button__start');
 buttonStart.innerText = "START";
